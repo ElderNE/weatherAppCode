@@ -1,6 +1,6 @@
 .header {
     margin: 0;
     padding: 0;
-    height: 60px;
+    flex: 0 0 60px;
     background-color: #FE7800;
 }

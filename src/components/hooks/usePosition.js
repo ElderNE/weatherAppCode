@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 
+//cheking your position
 export const usePosition = () => {
     const [ coordinates, setCoordinates ]= useState();
     useEffect(()=>{

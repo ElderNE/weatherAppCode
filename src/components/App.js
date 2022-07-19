@@ -3,6 +3,7 @@ import Header from './app/header';
 import Main from './app/main';
 import Canvas from './app/canvas';
 import Footer from './app/footer';
+import DayWeather from './app/dayWeather'
 import { useState, useEffect } from 'react';
 import { usePosition } from './hooks/usePosition';
 
@@ -87,18 +88,21 @@ function App() {
   },[city, coordinates, isCoord]);
  
   return (
-    <>
+    < div className="container">
       <Header />
       <form onSubmit={e=>setCityRequest(e)} className="app-form">
-        <input type="text" label="city" onChange={e=>textFromCityInput=e.target.value} placeholder="Wheather in your city" maxLength={100} className="app-inputSearch"/>
-        <button type="submit" className="app-buttonSearch">Search</button>
+        <input type="text" label="city" onChange={e=>textFromCityInput=e.target.value} placeholder="Weather in your city" maxLength={100} className="app-inputSearch noSelection"/>
+        <button type="submit" className="app-buttonSearch noSelection">Search</button>
       </form>
       <div className="chartAndTable">
-        <Main weather={weather}/>
+        <div className="chartAndTable-table">
+          <Main weather={weather}/>
+          { !weather.resault && weather.name && <DayWeather weatherList={weatherList}/>}
+        </div>
         { !weather.resault && weather.name && <Canvas weatherList={weatherList}/>}
       </div>
       <Footer />
-    </>
+    </div>
   );
 }
 

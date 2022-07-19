@@ -1,0 +1,46 @@
+.dayWeather__margin {
+    margin: 5px 0;
+}
+.dayWeatherLine {
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.dayWeatherLine__color-1 {
+    background-color: gray;
+}
+.dayWeatherLine__color1 {
+    background-color: white;
+}
+.dayWeatherLine_date{
+    margin: 4px 0 0 5px;
+    width: 90px;
+}
+.dayWeatherLine-temp {
+    margin: 4px 0 0 5px;
+    width: 60px;
+}
+.dayWeatherLine-wind {
+    margin: 4px 0 0 5px;
+    width: 40px;
+}
+
+.dayWeatherLine-weather {
+    margin: 4px 0 0 5px;
+}
+
+.dayWeatherLine-windDeg {
+    margin: 0 0 5px 5px;
+    width: 20px;
+}
+.dayWeatherLine-img {
+    margin: 0;
+}
+.font__color {
+    color: #48484A;
+}
