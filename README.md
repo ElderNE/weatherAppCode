@@ -1,11 +1,12 @@
 # react app with weather API
 # responsive one page app, chart shows temperature every 3 hours
+# url for working app: https://elderne.github.io/weatherApp/
 
-#mobile veiw:
+# mobile veiw:
 ![img for mobile](https://github.com/ElderNE/weatherAppCode/blob/main/public/for%20readme/mobile.jpg)
-#tablet veiw:
+# tablet veiw:
 ![img for tablet](https://github.com/ElderNE/weatherAppCode/blob/main/public/for%20readme/tablet.jpg)
-#desktop veiw:
+# desktop veiw:
 ![img for desktop](https://github.com/ElderNE/weatherAppCode/blob/main/public/for%20readme/wide.jpg)
 
 # Getting Started with Create React App
