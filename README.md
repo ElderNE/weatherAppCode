@@ -1,3 +1,10 @@
+# react app with weather API
+# responsive one page
+
+![img for mobile] (https://github.com/ElderNE/weatherAppCode/blob/main/public/for%20readme/mobile.jpg)
+![img for tablet] (https://github.com/ElderNE/weatherAppCode/blob/main/public/for%20readme/tablet.jpg)
+![img for desktop] (https://github.com/ElderNE/weatherAppCode/blob/main/public/for%20readme/wide.jpg)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
