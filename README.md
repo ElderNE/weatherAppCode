@@ -1,6 +1,6 @@
 # react app with weather API
 # responsive one page app, chart shows temperature every 3 hours
-# url for working app: https://elderne.github.io/weatherApp/
+# url for working app: https://weather-three-tau.vercel.app/
 
 # mobile veiw:
 ![img for mobile](https://github.com/ElderNE/weatherAppCode/blob/main/public/for%20readme/mobile.jpg)
